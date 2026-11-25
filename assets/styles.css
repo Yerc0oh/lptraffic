@@ -56,11 +56,19 @@ a {color: var(--terracotta);}
 .main .stButton > button, [data-testid="stFormSubmitButton"] > button {border-radius: 9px;}
 
 [data-testid="stAlert"] {border-radius: 10px;}
-[data-testid="stAlert"][data-alert-type="info"] {
-    background: rgba(201, 138, 75, .12);
-    border: 1px solid rgba(201, 138, 75, .4);
-    color: var(--ink);
+[data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]),
+[data-testid="stAlert"]:has([data-testid="stAlertContentInfo"]),
+[data-testid="stAlert"] [data-baseweb="notification"][kind="info"] {
+    background-color: #F3E4DA !important;
+    border: 1px solid #D8A78F !important;
+    border-left: 4px solid var(--terracotta) !important;
+    border-radius: 10px !important;
+    color: var(--ink) !important;
 }
+[data-testid="stAlertContentInfo"],
+[data-testid="stAlertContentInfo"] * {color: var(--ink) !important;}
+[data-testid="stAlert"]:has([data-testid="stAlertContentInfo"]) [data-testid="stAlertDynamicIcon"],
+[data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) [data-testid="stAlertDynamicIcon"] {color: var(--terracotta) !important;}
 [data-testid="stExpander"] {border-color: var(--border); border-radius: 10px;}
 
  
