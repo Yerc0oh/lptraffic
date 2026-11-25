@@ -3,3 +3,5 @@ __pycache__/
 .pytest_cache/
 *.pyc
 *.tmp
+# Documento de contexto local, no versionado
+docs/contexto_ia.md
