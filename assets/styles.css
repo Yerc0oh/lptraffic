@@ -71,4 +71,16 @@ a {color: var(--terracotta);}
 [data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) [data-testid="stAlertDynamicIcon"] {color: var(--terracotta) !important;}
 [data-testid="stExpander"] {border-color: var(--border); border-radius: 10px;}
 
- 
+.team-card {
+    margin-top: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--terracotta);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(62, 47, 39, .07);
+}
+.team-card p {color: var(--ink); margin: .25rem 0;}
+.team-card .team-eyebrow {margin-bottom: .75rem; color: var(--terracotta-dark); font-weight: 600;}
+.team-card ul {margin: .35rem 0 0 1.2rem; padding: 0;}
+.team-card li {margin: .18rem 0; color: var(--ink);}

@@ -14,4 +14,13 @@ def render():
 **Tecnologías:** Python, Streamlit, Pandas, NumPy, Scikit-learn, NetworkX, Plotly, Folium, Joblib y Pytest.
 
 **Limitaciones:** datos sintéticos, red de corredores aproximada y sentidos asumidos bidireccionales, condiciones constantes, sin observaciones ni tráfico en vivo. Las métricas no demuestran precisión en la ciudad real.''')
-    for i in range(1,4): st.text_input(f'Integrante {i}',key=f'integrante{i}')
+    st.markdown('''<div class="team-card">
+<p class="team-eyebrow">Proyecto desarrollado para la materia de Inteligencia Artificial (INF - 372)</p>
+<p><strong>Docente:</strong> Lic. Toledo Paz Freddy Miguel</p>
+<p><strong>Integrantes de grupo:</strong></p>
+<ul>
+<li>Abed Yeray Calderon Calle</li>
+<li>Melani Masco Vargas</li>
+<li>Brayan Quispe Mamani</li>
+</ul>
+</div>''',unsafe_allow_html=True)

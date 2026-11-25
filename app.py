@@ -14,6 +14,6 @@ if 'page' not in st.session_state: st.session_state.page='Inicio'
 for name in modules:
     if st.sidebar.button(name,key=f'nav_{name}',use_container_width=True,type='primary' if st.session_state.page==name else 'secondary'):
         st.session_state.page=name
-st.sidebar.divider(); st.sidebar.caption('Inteligencia Artificial · La Paz, Bolivia')
+st.sidebar.divider(); st.sidebar.caption('Proyecto desarrollado para la materia de Inteligencia Artificial - Universidad Mayor de San Andrés (UMSA) - La Paz, Bolivia   Carrera de Informática - 2026')
 try: modules[st.session_state.page].render()
 except (OSError,ValueError,KeyError,TypeError) as e: st.error(f'No se pudo completar la operación: {e}')
