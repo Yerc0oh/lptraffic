@@ -1,0 +1,65 @@
+edge_id,origen,destino,avenida,zona,distancia_km,numero_carriles,capacidad_vehicular,velocidad_referencia_kmh
+E001,N02,N03,Montes,Centro,0.687,2,1300,35
+E002,N03,N02,Montes,Centro,0.687,2,1300,35
+E003,N03,N01,Montes,Centro,0.109,2,1300,35
+E004,N01,N03,Montes,Centro,0.109,2,1300,35
+E005,N03,N04,Mariscal Santa Cruz,Centro,0.561,2,1300,35
+E006,N04,N03,Mariscal Santa Cruz,Centro,0.561,2,1300,35
+E007,N01,N04,Mariscal Santa Cruz,Centro,0.527,2,1300,35
+E008,N04,N01,Mariscal Santa Cruz,Centro,0.527,2,1300,35
+E009,N04,N05,16 de Julio (El Prado),Centro,0.335,2,1300,35
+E010,N05,N04,16 de Julio (El Prado),Centro,0.335,2,1300,35
+E011,N05,N06,16 de Julio (El Prado),Centro,0.628,2,1300,35
+E012,N06,N05,16 de Julio (El Prado),Centro,0.628,2,1300,35
+E013,N06,N07,6 de Agosto,Centro,0.385,2,1300,35
+E014,N07,N06,6 de Agosto,Sopocachi,0.385,2,1300,35
+E015,N07,N11,6 de Agosto,Sopocachi,0.504,2,1300,35
+E016,N11,N07,6 de Agosto,Sopocachi,0.504,2,1300,35
+E017,N11,N08,6 de Agosto,Sopocachi,0.429,2,1300,35
+E018,N08,N11,6 de Agosto,Sopocachi,0.429,2,1300,35
+E019,N06,N09,Arce,Centro,1.47,2,1300,35
+E020,N09,N06,Arce,San Jorge,1.47,2,1300,35
+E021,N09,N10,Arce,San Jorge,0.765,2,1300,35
+E022,N10,N09,Arce,San Jorge,0.765,2,1300,35
+E023,N07,N13,20 de Octubre,Sopocachi,0.34,2,1300,35
+E024,N13,N07,20 de Octubre,Sopocachi,0.34,2,1300,35
+E025,N13,N12,20 de Octubre,Sopocachi,0.47,2,1300,35
+E026,N12,N13,20 de Octubre,Sopocachi,0.47,2,1300,35
+E027,N12,N14,20 de Octubre,Sopocachi,1.057,2,1300,35
+E028,N14,N12,20 de Octubre,Sopocachi,1.057,2,1300,35
+E029,N08,N12,Belisario Salinas,Sopocachi,0.789,1,650,25
+E030,N12,N08,Belisario Salinas,Sopocachi,0.789,1,650,25
+E031,N08,N09,Sánchez Lima / conexión,Sopocachi,0.702,1,650,25
+E032,N09,N08,Sánchez Lima / conexión,San Jorge,0.702,1,650,25
+E033,N14,N15,Kantutani,Sopocachi,0.701,2,1300,35
+E034,N15,N14,Kantutani,Sopocachi,0.701,2,1300,35
+E035,N15,N16,Puentes Trillizos,Sopocachi,0.942,2,1300,35
+E036,N16,N15,Puentes Trillizos,San Jorge,0.942,2,1300,35
+E037,N10,N16,Arce / conexión,San Jorge,0.625,1,650,25
+E038,N16,N10,Arce / conexión,San Jorge,0.625,1,650,25
+E039,N09,N17,Arce,San Jorge,0.331,2,1300,35
+E040,N17,N09,Arce,San Jorge,0.331,2,1300,35
+E041,N17,N18,Avenida del Poeta,San Jorge,1.106,2,1300,35
+E042,N18,N17,Avenida del Poeta,Centro,1.106,2,1300,35
+E043,N18,N05,Camacho / conexión,Centro,1.429,1,650,25
+E044,N05,N18,Camacho / conexión,Centro,1.429,1,650,25
+E045,N18,N19,Avenida del Poeta / conexión,Centro,0.883,1,650,25
+E046,N19,N18,Avenida del Poeta / conexión,Miraflores,0.883,1,650,25
+E047,N19,N21,Busch,Miraflores,0.722,2,1300,35
+E048,N21,N19,Busch,Miraflores,0.722,2,1300,35
+E049,N21,N20,Busch,Miraflores,0.677,2,1300,35
+E050,N20,N21,Busch,Miraflores,0.677,2,1300,35
+E051,N19,N23,Saavedra,Miraflores,0.335,2,1300,35
+E052,N23,N19,Saavedra,Miraflores,0.335,2,1300,35
+E053,N23,N22,Saavedra,Miraflores,0.962,2,1300,35
+E054,N22,N23,Saavedra,Miraflores,0.962,2,1300,35
+E055,N22,N24,Saavedra,Miraflores,0.637,2,1300,35
+E056,N24,N22,Saavedra,Miraflores,0.637,2,1300,35
+E057,N24,N16,Puentes Trillizos / conexión,Miraflores,1.638,1,650,25
+E058,N16,N24,Puentes Trillizos / conexión,San Jorge,1.638,1,650,25
+E059,N22,N19,Saavedra / conexión,Miraflores,0.637,1,650,25
+E060,N19,N22,Saavedra / conexión,Miraflores,0.637,1,650,25
+E061,N21,N23,Vías de Miraflores,Miraflores,0.642,2,1300,35
+E062,N23,N21,Vías de Miraflores,Miraflores,0.642,2,1300,35
+E063,N13,N04,Landaeta / conexión,Sopocachi,1.137,1,650,25
+E064,N04,N13,Landaeta / conexión,Centro,1.137,1,650,25

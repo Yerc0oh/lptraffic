@@ -1,0 +1,66 @@
+:root {
+    --sand: #F0EAE0;
+    --sand-dark: #E7DCCB;
+    --surface: #FBF7F1;
+    --border: #D8C7B3;
+    --ink: #3E2F27;
+    --muted: #7A6A5E;
+    --terracotta: #B85C38;
+    --terracotta-dark: #8E4328;
+    --clay: #C98A4B;
+}
+
+html, body, .stApp, [data-testid="stAppViewContainer"] {background: var(--sand); color: var(--ink);}
+[data-testid="stHeader"] {background: rgba(240, 234, 224, .88); backdrop-filter: blur(6px);}
+.block-container {max-width: 1320px; padding-top: 2rem;}
+
+h1, h2, h3 {color: var(--terracotta-dark); letter-spacing: -.02em;}
+a {color: var(--terracotta);}
+
+[data-testid="stMetric"] {background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; box-shadow: 0 1px 3px rgba(62, 47, 39, .06);}
+[data-testid="stMetricLabel"] {color: var(--muted);}
+[data-testid="stMetricValue"] {color: var(--terracotta-dark);}
+
+[data-testid="stSidebar"] {background: var(--sand-dark); border-right: 1px solid var(--border);}
+[data-testid="stSidebar"] > div:first-child {padding-top: 1.4rem;}
+[data-testid="stSidebar"] h1 {color: var(--terracotta-dark); font-size: 1.65rem; margin-bottom: .15rem;}
+[data-testid="stSidebar"] hr {border-color: var(--border);}
+
+[data-testid="stSidebar"] .stButton > button {
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: .55rem .85rem;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--ink);
+    font-weight: 500;
+    transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: rgba(184, 92, 56, .10);
+    border-color: rgba(184, 92, 56, .28);
+    color: var(--terracotta-dark);
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"],
+[data-testid="stSidebar"] [data-testid="stBaseButton-primary"] {
+    background: var(--terracotta) !important;
+    border-color: var(--terracotta) !important;
+    color: #FFF8F1 !important;
+    box-shadow: 0 2px 8px rgba(184, 92, 56, .28);
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"] p,
+[data-testid="stSidebar"] [data-testid="stBaseButton-primary"] p {color: #FFF8F1 !important; font-weight: 600;}
+
+.main .stButton > button, [data-testid="stFormSubmitButton"] > button {border-radius: 9px;}
+
+[data-testid="stAlert"] {border-radius: 10px;}
+[data-testid="stAlert"][data-alert-type="info"] {
+    background: rgba(201, 138, 75, .12);
+    border: 1px solid rgba(201, 138, 75, .4);
+    color: var(--ink);
+}
+[data-testid="stExpander"] {border-color: var(--border); border-radius: 10px;}
+
+ 

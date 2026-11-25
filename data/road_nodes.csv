@@ -1,0 +1,25 @@
+node_id,nombre,zona,latitud,longitud
+N01,Plaza San Francisco,Centro,-16.4961,-68.1374
+N02,Montes / Pando,Centro,-16.4912,-68.1392
+N03,Montes / Pérez Velasco,Centro,-16.4955,-68.1369
+N04,Mariscal Santa Cruz / Obelisco,Centro,-16.499,-68.135
+N05,El Prado / Camacho,Centro,-16.501,-68.1337
+N06,Plaza del Estudiante,Centro,-16.5045,-68.1309
+N07,6 de Agosto / 20 de Octubre,Sopocachi,-16.5064,-68.1329
+N08,Plaza Abaroa,Sopocachi,-16.5114,-68.1285
+N09,Plaza Isabel la Católica,San Jorge,-16.5119,-68.1234
+N10,Arce / San Jorge,San Jorge,-16.517,-68.1216
+N11,6 de Agosto / Belisario Salinas,Sopocachi,-16.509,-68.1304
+N12,20 de Octubre / Aspiazu,Sopocachi,-16.5101,-68.1341
+N13,20 de Octubre / Landaeta,Sopocachi,-16.507,-68.1353
+N14,Kantutani / final 20 de Octubre,Sopocachi,-16.5164,-68.13
+N15,Puente Kantutani,Sopocachi,-16.52,-68.1265
+N16,Puentes Trillizos / San Jorge,San Jorge,-16.521,-68.1197
+N17,Avenida del Poeta / Arce,San Jorge,-16.5141,-68.1226
+N18,Avenida del Poeta / Cancha Zapata,Centro,-16.5067,-68.1251
+N19,Plaza Triangular,Miraflores,-16.5012,-68.1221
+N20,Plaza Villarroel,Miraflores,-16.4917,-68.1194
+N21,Busch / monumento Busch,Miraflores,-16.4963,-68.1207
+N22,Saavedra / Hospital de Clínicas,Miraflores,-16.5051,-68.1198
+N23,Saavedra / estadio,Miraflores,-16.4996,-68.1239
+N24,Miraflores / Puente de las Américas,Miraflores,-16.5095,-68.1189

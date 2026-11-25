@@ -1,0 +1,22 @@
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / 'data'
+MODELS = ROOT / 'models'
+SEED = 42
+CLASSES = ['Bajo', 'Medio', 'Alto']
+CAT = ['tramo_id','avenida','zona','condicion_climatica']
+NUM = ['hora','dia_semana','mes','es_fin_semana','es_feriado','es_hora_pico','distancia_km','numero_carriles','capacidad_vehicular','temperatura_c','precipitacion_mm','evento_especial','bloqueo','accidente']
+FEATURES = NUM + CAT
+COLUMNS = ['id','fecha','hora','dia_semana','mes','es_fin_semana','es_feriado','es_hora_pico','tramo_id','avenida','zona','distancia_km','numero_carriles','capacidad_vehicular','temperatura_c','precipitacion_mm','condicion_climatica','evento_especial','bloqueo','accidente','vehiculos_hora','velocidad_promedio_kmh','tiempo_recorrido_min','indice_congestion','nivel_trafico','fuente']
+SAND = '#F0EAE0'
+SAND_DARK = '#E7DCCB'
+SURFACE = '#FBF7F1'
+BORDER = '#D8C7B3'
+INK = '#3E2F27'
+MUTED = '#7A6A5E'
+TERRACOTTA = '#B85C38'
+TERRACOTTA_DARK = '#8E4328'
+CLAY = '#C98A4B'
+COLORS = {'Bajo':'#C9A48A','Medio':'#B85C38','Alto':'#7A3420'}
+ROUTE_COLORS = ['#B85C38','#8E4328','#C98A4B']
+NOTICE = 'Prototipo académico: datos sintéticos y red vial aproximada. No es tráfico en tiempo real ni navegación GPS.'
